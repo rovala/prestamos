@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: usuario-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_prest_app?currentSchema=sc_prest_app
+    username: user_prest_app
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+security:
+  jwt:
+    secret: ODIWOJIEW34I54405EFKEJ
+    issuer: Main
+    ttlMillis: 7200000

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-09T01:52:40.597922500Z</date>
+  <millis>1683597160597</millis>
+  <nanos>922500</nanos>
+  <sequence>4</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>35</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T20:52:40Z, a difference of 7661589 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T01:52:40.677890300Z</date>
+  <millis>1683597160677</millis>
+  <nanos>890300</nanos>
+  <sequence>5</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>37</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T20:52:40Z, a difference of 7661674 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:04:58.903091700Z</date>
+  <millis>1683597898903</millis>
+  <nanos>91700</nanos>
+  <sequence>12</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>62</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:04:58Z, a difference of 8399893 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:04:58.929092400Z</date>
+  <millis>1683597898929</millis>
+  <nanos>92400</nanos>
+  <sequence>13</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>64</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:04:58Z, a difference of 8399923 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:05:58.461872600Z</date>
+  <millis>1683597958461</millis>
+  <nanos>872600</nanos>
+  <sequence>20</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>88</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:05:58Z, a difference of 8459457 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:05:58.486875400Z</date>
+  <millis>1683597958486</millis>
+  <nanos>875400</nanos>
+  <sequence>21</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>89</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:05:58Z, a difference of 8459479 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:06:58.252590200Z</date>
+  <millis>1683598018252</millis>
+  <nanos>590200</nanos>
+  <sequence>28</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>113</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:06:58Z, a difference of 8519248 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:06:58.280594Z</date>
+  <millis>1683598018280</millis>
+  <nanos>594000</nanos>
+  <sequence>29</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>112</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:06:58Z, a difference of 8519270 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:09:42.394799300Z</date>
+  <millis>1683598182394</millis>
+  <nanos>799300</nanos>
+  <sequence>36</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>137</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:09:42Z, a difference of 8683390 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:09:42.418803500Z</date>
+  <millis>1683598182418</millis>
+  <nanos>803500</nanos>
+  <sequence>37</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>138</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:09:42Z, a difference of 8683412 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:11:19.627221500Z</date>
+  <millis>1683598279627</millis>
+  <nanos>221500</nanos>
+  <sequence>38</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>137</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:11:19Z, a difference of 8780626 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:11:19.645219400Z</date>
+  <millis>1683598279645</millis>
+  <nanos>219400</nanos>
+  <sequence>39</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>138</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:11:19Z, a difference of 8780643 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:11:49.500824200Z</date>
+  <millis>1683598309500</millis>
+  <nanos>824200</nanos>
+  <sequence>40</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>135</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:11:49Z, a difference of 8810497 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:11:49.519776700Z</date>
+  <millis>1683598309519</millis>
+  <nanos>776700</nanos>
+  <sequence>41</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>136</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:11:49Z, a difference of 8810515 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:12:45.150724400Z</date>
+  <millis>1683598365150</millis>
+  <nanos>724400</nanos>
+  <sequence>42</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>138</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:12:45Z, a difference of 8866147 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:12:52.333133400Z</date>
+  <millis>1683598372333</millis>
+  <nanos>133400</nanos>
+  <sequence>43</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>135</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:12:52Z, a difference of 8873330 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:12:52.349133400Z</date>
+  <millis>1683598372349</millis>
+  <nanos>133400</nanos>
+  <sequence>44</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>136</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:12:52Z, a difference of 8873343 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:13:02.274623300Z</date>
+  <millis>1683598382274</millis>
+  <nanos>623300</nanos>
+  <sequence>45</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>142</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:13:02Z, a difference of 8883273 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:13:02.289624300Z</date>
+  <millis>1683598382289</millis>
+  <nanos>624300</nanos>
+  <sequence>46</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>144</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:13:02Z, a difference of 8883286 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:14:55.930192500Z</date>
+  <millis>1683598495930</millis>
+  <nanos>192500</nanos>
+  <sequence>47</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>142</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:14:55Z, a difference of 8996926 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:14:55.951196900Z</date>
+  <millis>1683598495951</millis>
+  <nanos>196900</nanos>
+  <sequence>48</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>144</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:14:55Z, a difference of 8996944 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:15:04.263629800Z</date>
+  <millis>1683598504263</millis>
+  <nanos>629800</nanos>
+  <sequence>49</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>141</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:15:04Z, a difference of 9005260 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:15:04.282631Z</date>
+  <millis>1683598504282</millis>
+  <nanos>631000</nanos>
+  <sequence>50</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>143</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:15:04Z, a difference of 9005279 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:17:44.765819400Z</date>
+  <millis>1683598664765</millis>
+  <nanos>819400</nanos>
+  <sequence>51</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>141</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:17:44Z, a difference of 9165763 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:17:44.781816100Z</date>
+  <millis>1683598664781</millis>
+  <nanos>816100</nanos>
+  <sequence>52</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>143</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:17:44Z, a difference of 9165779 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:17:57.707461100Z</date>
+  <millis>1683598677707</millis>
+  <nanos>461100</nanos>
+  <sequence>53</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>139</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:17:57Z, a difference of 9178705 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:17:57.725461300Z</date>
+  <millis>1683598677725</millis>
+  <nanos>461300</nanos>
+  <sequence>54</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>140</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:17:57Z, a difference of 9178723 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:18:16.309252500Z</date>
+  <millis>1683598696309</millis>
+  <nanos>252500</nanos>
+  <sequence>55</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>141</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:18:16Z, a difference of 9197305 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:18:16.322253700Z</date>
+  <millis>1683598696322</millis>
+  <nanos>253700</nanos>
+  <sequence>56</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>143</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:18:16Z, a difference of 9197319 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:18:24.800239200Z</date>
+  <millis>1683598704800</millis>
+  <nanos>239200</nanos>
+  <sequence>57</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>139</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:18:24Z, a difference of 9205797 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T02:18:24.820238Z</date>
+  <millis>1683598704820</millis>
+  <nanos>238000</nanos>
+  <sequence>58</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>140</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T21:18:24Z, a difference of 9205817 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T03:21:02.279715800Z</date>
+  <millis>1683602462279</millis>
+  <nanos>715800</nanos>
+  <sequence>59</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>139</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T22:21:02Z, a difference of 12963275 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
+<record>
+  <date>2023-05-09T03:21:02.308718100Z</date>
+  <millis>1683602462308</millis>
+  <nanos>718100</nanos>
+  <sequence>60</sequence>
+  <logger>logApiExceptionHandler</logger>
+  <level>INFO</level>
+  <class>com.usuario.service.exception.ApiExceptionHandler</class>
+  <method>runtimeExceptionHandler</method>
+  <thread>140</thread>
+  <message>Error de excepcion capturado (CLASS): ExpiredJwtException (MESSAGE): JWT expired at 2023-05-08T18:44:59Z. Current time: 2023-05-08T22:21:02Z, a difference of 12963305 milliseconds.  Allowed clock skew: 0 milliseconds. (URI): /usuario</message>
+</record>
