@@ -21,4 +21,9 @@ public class PrestamoService {
 	{
 		prestamoRepository.deleteById(id);
 	}
+	
+	public void actualizaEstadoPrestamo(Prestamo prestamo)
+	{
+		prestamoRepository.updatePrestamo(prestamo.getEstado(), prestamo.getId());
+	}
 }

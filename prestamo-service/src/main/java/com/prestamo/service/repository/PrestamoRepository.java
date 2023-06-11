@@ -17,10 +17,15 @@ public interface PrestamoRepository extends JpaRepository<Prestamo, Long> {
     @Query(value="CALL p_prest_insert_prestamo(:monto,:interes,:numcuotas,:formapago,:moneda,:f_inicio,:clausulas,:id_client, :id_prestamo)",nativeQuery = true)
     Long savePrestamo(int monto,int interes,int numcuotas,int formapago, String moneda,Long f_inicio, String clausulas, Long id_client, Long id_prestamo);
     	
-	@Modifying(clearAutomatically = true)
+	/*@Modifying(clearAutomatically = true)
 	@Transactional
 	@Query(value="CALL p_prest_delete_prestamo(:id)",nativeQuery=true)
-	void deletePrestamo(Long id);
+	void deletePrestamo(Long id);*/
+	
+    @Transactional
+	@Modifying
+	@Query("update Prestamo p set p.estado=:estado where p.id=:id")
+	void updatePrestamo(String estado, Long id);
 	
 	@Transactional
 	void deleteById(Long id);

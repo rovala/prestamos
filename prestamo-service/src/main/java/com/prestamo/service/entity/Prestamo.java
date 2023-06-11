@@ -13,13 +13,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
-@Getter @Setter
+@Getter
+@Setter
 @Table(name="tbl_prestamo")
 @Entity
 @AllArgsConstructor @NoArgsConstructor
 public class Prestamo {
-	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
@@ -32,4 +31,5 @@ public class Prestamo {
 	private String clausulas;
 	private Long id_client;
 	private Timestamp f_registro;
+	private String estado;
 }

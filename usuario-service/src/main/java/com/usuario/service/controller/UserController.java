@@ -3,6 +3,7 @@ package com.usuario.service.controller;
 import com.usuario.service.entity.User;
 import com.usuario.service.exception.ErrorMessage;
 import com.usuario.service.models.Client;
+import com.usuario.service.models.Cuota;
 import com.usuario.service.models.ParamsFee;
 import com.usuario.service.models.Prestamo;
 import com.usuario.service.models.PrestamoCliente;
@@ -174,9 +175,15 @@ public class UserController
     	return userService.deleteLoan(idLoan);
     }
     
-    /*********************************
+    @PutMapping("/prestamo/update")
+    public ResponseEntity<ErrorMessage> updateLoan(@RequestBody Prestamo prestamo,@RequestHeader(value="Authorization") String token, @RequestHeader(value="Id") Long Id)
+    {
+    	//String.valueOf(Id).equals(jwtSecurity.getKey(token));
+    	return userService.updateLoan(prestamo);
+    }
+     /********************************
      ********END PRESTAMO FEIGN*******
-     *********************************/
+     ********************************/
     
     /*****************************
      *********CUOTA FEIGN*********
@@ -186,6 +193,13 @@ public class UserController
     {
     	String.valueOf(Id).equals(jwtSecurity.getKey(token));
     	return userService.insertFee(paramsFee);
+    }
+    
+    @PutMapping("/cuota/update")
+    public ResponseEntity<ErrorMessage> updateEstadoCuota(@RequestBody Cuota cuota,@RequestHeader(value="Authorization") String token, @RequestHeader(value="Id") Long Id)
+    {
+    	String.valueOf(Id).equals(jwtSecurity.getKey(token));
+    	return userService.updateEstadoCuota(cuota);
     }
     /*********************************
      **********END CUOTA FEIGN********

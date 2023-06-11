@@ -20,4 +20,5 @@ public class Prestamo {
 	private String clausulas;
 	private Long id_client;
 	private Timestamp f_registro;
+	private String estado;
 }

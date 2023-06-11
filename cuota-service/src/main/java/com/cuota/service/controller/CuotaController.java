@@ -2,11 +2,14 @@ package com.cuota.service.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cuota.service.entity.Cuota;
 import com.cuota.service.entity.ParamsFee;
 import com.cuota.service.exception.ErrorMessage;
 import com.cuota.service.service.CuotaService;
@@ -29,6 +32,16 @@ public class CuotaController {
 		cuotaService.insertCuota(paramsFee);
 		errorMessage.setException("Exito");
 		errorMessage.setMessage("Cuotas de prestamo registradas");
+		errorMessage.setPath(request.getRequestURI());
+		return ResponseEntity.ok(errorMessage);
+	}
+	
+	@PutMapping("/update")
+	public ResponseEntity<ErrorMessage> actualizaEstadoCuota(@RequestBody Cuota cuota, HttpServletRequest request)
+	{
+		cuotaService.actualizaEstado(cuota);
+		errorMessage.setException("Exito");
+		errorMessage.setMessage("Cuotas de prestamo pagada");
 		errorMessage.setPath(request.getRequestURI());
 		return ResponseEntity.ok(errorMessage);
 	}

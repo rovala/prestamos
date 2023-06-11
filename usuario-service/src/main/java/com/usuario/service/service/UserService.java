@@ -8,6 +8,7 @@ import com.usuario.service.feignclients.PrestamoFeign;
 import com.usuario.service.feignclients.ReporteFeign;
 import com.usuario.service.feignclients.UserFeignLogin;
 import com.usuario.service.models.Client;
+import com.usuario.service.models.Cuota;
 import com.usuario.service.models.ParamsFee;
 import com.usuario.service.models.Prestamo;
 import com.usuario.service.models.PrestamoCliente;
@@ -91,11 +92,21 @@ public class UserService
     	return prestamoFeign.borrarPrestamo(id);
     }
     
+    public ResponseEntity<ErrorMessage> updateLoan(Prestamo prestamo)
+    {
+    	return prestamoFeign.actualizaEstadoPrestamo(prestamo);
+    }
+    
     /***********************
      ******FEIGN CUOTA******
      ***********************/
     public ResponseEntity<ErrorMessage> insertFee(ParamsFee paramsFee){
     	return cuotaFeign.insertCuota(paramsFee);
+    }
+    
+    public ResponseEntity<ErrorMessage> updateEstadoCuota(Cuota cuota)
+    {
+    	return cuotaFeign.actualizaEstadoCuota(cuota);
     }
     
      /*****************************

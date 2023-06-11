@@ -14,4 +14,9 @@ public interface CuotaRepository extends JpaRepository<Cuota, Long> {
 	@Transactional
 	@Query(value="CALL p_prest_insert_cuota(:montoPrestamo,:interes,:numcuotas,:formapago,:f_inicio)", nativeQuery=true)
 	void saveCuota(Double montoPrestamo, Double interes, int numcuotas, int formapago, Long f_inicio);
+	
+    @Modifying(clearAutomatically = true) //forzar a que los cambios se reflejen en el entorno de JPA
+    @Transactional
+	@Query(value="UPDATE Cuota c SET c.status=:status WHERE c.id=:idCuota")
+	int updateCuota(String status, Long idCuota);
 }

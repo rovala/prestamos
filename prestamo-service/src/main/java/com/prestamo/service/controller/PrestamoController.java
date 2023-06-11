@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -47,9 +48,19 @@ public class PrestamoController {
 	{
 		prestamoService.borrarPrestamo(Long.parseLong(id));
 		errorMessage.setException("Exito");
-		errorMessage.setMessage("Rollback a prestamo...");
+		errorMessage.setMessage("Rollback a prestamo...no se pudo completar");
 		errorMessage.setPath(request.getRequestURI());
 		return ResponseEntity.ok(errorMessage);
 	}
-
+	
+	@PutMapping("/update")
+	public ResponseEntity<ErrorMessage> actualizaEstadoPrestamo(@RequestBody Prestamo prestamo, HttpServletRequest request)
+	{
+		prestamoService.actualizaEstadoPrestamo(prestamo);
+		errorMessage.setException("Exito");
+		errorMessage.setMessage("Actualizacion de estado: Prestamo cancelado");
+		errorMessage.setPath(request.getRequestURI());
+		return ResponseEntity.ok(errorMessage);
+	}
+	
 }

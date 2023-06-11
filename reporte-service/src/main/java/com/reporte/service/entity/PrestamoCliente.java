@@ -26,6 +26,7 @@ public class PrestamoCliente {
 	@Column(name="id",updatable=false,nullable=false)
 	private Long id;
 	private String nombre;
+	private String dni;
 	private String direccion;
 	private String telefono;
 	private long idprestamo;
